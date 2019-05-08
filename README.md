@@ -81,7 +81,9 @@ https://oauth.b.com/token?
 client(A site) use user name and password to get user's data from B site.
 
 4. client credentials (suits CLI app)
+
 request: send request from command line(CLI):
+
 ```
 https://oauth.b.com/token?
   grant_type=client_credentials&
