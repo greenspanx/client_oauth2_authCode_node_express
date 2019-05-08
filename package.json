@@ -1,0 +1,12 @@
+{
+  "name": "client-oauth2-authcode-node-express-demo",
+  "version": "1.0.0",
+  "description": "a demo of client OAuth2.0 using node",
+  "main": "index.js",
+  "author": "Simon Xie",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4"
+  }
+}

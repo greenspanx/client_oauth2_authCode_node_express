@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hello, welcome</title>
+</head>
+<body>
+
+</body>
+<script>
+// pick query string from URL
+const query = window.location.search.substring(1) || 'no substring found';
+console.log(`query substring : ${query}`);
+// pick the value of name 
+const name = query.split('name=')[1];
+console.log(`name : ${name}`);
+// remove %20 from string by using decodeURIComponent()
+document.body.appendChild(
+  document.createTextNode(`Welcome, ${decodeURIComponent(name)}`)
+);
+
+</script>
+
+</html>
