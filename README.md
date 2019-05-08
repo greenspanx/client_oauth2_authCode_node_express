@@ -18,6 +18,7 @@ https://a.com/callback?code=AUTHORIZATION_CODE
 ```
 
 ######################################
+
 back-channel:
 request to resource server:
 ```
@@ -45,6 +46,7 @@ response to client server:
 request to resource server: get data
 response to client server: receive data
 ######################################
+
 response: redirect to login successful page
 
 2. implicit (suits pure frontend app without the corresponding backend)
